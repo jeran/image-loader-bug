@@ -20,6 +20,7 @@ kotlin {
                 api(compose.material)
                 api(compose.runtime)
                 api(compose.ui)
+                api("io.github.qdsfdhvh:image-loader:1.2.9")
             }
         }
         getByName("jsMain") {
